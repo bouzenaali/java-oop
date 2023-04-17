@@ -20,7 +20,7 @@ public class Vehicule {
         }
     }
     public static void main(String[] args) {
-       
+
     }
 }
 
