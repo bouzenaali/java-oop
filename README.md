@@ -22,3 +22,9 @@ méthode en déclarant deux type d’exception « **ZeroCarburantException** »,
 ### Remarque :
 Dans les trois exercices, les exemples (valeurs de test) sont passés comme arguments dans la
 ligne de commande.
+
+##
+
+## Spotted any errors ?
+If you have noticed any errors, please feel free to correct them and create a pull request. Your contribution would be greatly appreciated.
+
