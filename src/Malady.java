@@ -23,7 +23,7 @@ public class Malady {
     }
 
     public void removeSymptom(String symptom){
-        this .symptoms.remove(symptom);
+        this.symptoms.remove(symptom);
     }
 
 
@@ -35,7 +35,7 @@ public class Malady {
         }
     }
 
-    public static class PersonelizedTreatment{
+    public class PersonelizedTreatment{
         private String[] treatments;
 
         public PersonelizedTreatment(String[] treatments){
@@ -67,6 +67,11 @@ public class Malady {
         //     System.out.println(symptom);
         // });
 
-        
+        String[] treatment = new String[]{"rest", "drink water", "take medicine"};
+        Malady.BasicTreatment Btreatement = new Malady.BasicTreatment();
+        Malady.PersonelizedTreatment Ptreatement = flu.new PersonelizedTreatment(treatment);
+
+        Malady.BasicTreatment.getBasicTreatment();
+        Ptreatement.getTreatments();
     }
 }
